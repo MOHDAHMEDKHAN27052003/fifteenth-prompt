@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ri-menu-line{
+    display: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 6vh 3vw;
+    justify-content: space-between;
+}
+
+header h2{
+    font-weight: 700;
+    color:midnightblue;
+}
+
+header nav{
+    display: flex;
+    gap: 3vw;
+}
+
+header nav a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+}
+
+header #goto{
+    display: flex;
+}
+
+header i{
+    border: 0.1rem solid;
+    border-radius: 50%;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.ri-handbag-line, .ri-account-circle-line{
+    background-color: #365af9;
+    color: white;
+}
+
+main{
+    padding: 5vh 3vw;
+    display: flex;
+    gap: 1.5vw;
+}
+
+main h1{
+    font-size: 3.5rem;
+    padding-bottom: 4vh;
+}
+
+main h1 span{
+    color: #0a1a59;
+}
+
+main img{
+    border-radius: 0.5rem;
+    width: 46vw;
+}
+
+main #left p{
+    padding-bottom: 8vh;
+}
+
+main #left button{
+    display: block;
+    padding: 1.5rem 4rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 2rem;
+    background-color: #365af9;
+    border: none;
+    color: white;
+    margin-bottom: 14vh;
+}
+
+main #right img{
+    display: block;
+}
+
+main #right button{
+    padding: 2rem 7.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 4rem;
+    background-color: #365af9;
+    color: white;
+    opacity: 0.5;
+    border: none;
+}
+
+main #right i{
+    border: 0.1rem solid black;
+    border-radius: 50%;
+    padding: 1.2rem;
+    color: blue;
+    font-size: 3rem;
+}
+
+main #right-top{
+    padding-bottom: 5vh;
+}
+
+main #right p{
+    background-color: #0a1a59;
+    padding: 12vh 4vw;
+    border-radius: 3rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+}
